@@ -19,7 +19,7 @@ WiFi 时自动弹出登录窗口。但系统有时会误判"这个网络已经�
 打开「终端」（Terminal），粘贴运行：
 
 ```bash
-zsh <(curl -fsSL https://raw.githubusercontent.com/<你的用户名>/mac-captive-portal-launcher/main/install.sh)
+zsh <(curl -fsSL https://raw.githubusercontent.com/pseudodream/mac-captive-portal-launcher/main/install.sh)
 ```
 
 或者手动下载 `install.sh` 后运行：
