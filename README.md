@@ -28,6 +28,14 @@ zsh <(curl -fsSL https://raw.githubusercontent.com/pseudodream/mac-captive-porta
 zsh install.sh
 ```
 
+> 国内网络如果访问 raw.githubusercontent.com 缓慢或超时，可改用加速镜像：
+>
+> ```bash
+> zsh <(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/pseudodream/mac-captive-portal-launcher/main/install.sh)
+> ```
+>
+> 安装脚本不下载任何文件，全程本地离线操作，可放心运行。
+
 安装完成后，桌面会出现 **「弹出WiFi验证」** 应用。
 
 ## 使用
