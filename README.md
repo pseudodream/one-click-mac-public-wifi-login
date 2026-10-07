@@ -10,11 +10,9 @@
 macOS 自带一个「强制门户助手」（Captive Network Assistant），本该在连接到需要验证的
 WiFi 时自动弹出登录窗口。但系统有时会误判"这个网络已经有网"，导致验证页弹不出来。
 
-本工具就是手动启动这个助手，登录窗口会立即弹出：
-
-```
-/System/Library/CoreServices/CaptiveNetworkSupport.app
-```
+本工具就是手动启动这个助手，登录窗口会立即弹出。该组件在新旧 macOS 版本中名字不同
+（新版为 `Captive Network Assistant.app`，旧版为 `CaptiveNetworkSupport.app`），
+安装脚本会自动检测你系统上的正确路径。
 
 ## 安装（10 秒）
 
@@ -52,7 +50,7 @@ http://captive.apple.com
 
 ## 兼容性
 
-- ✅ 所有较新的 macOS 版本（路径多年来保持一致）
+- ✅ 新旧 macOS 版本均支持（脚本自动适配新旧两种组件路径，已在新版 macOS Tahoe 上验证）
 - ✅ 适用于一切需要网页认证的 WiFi，不限于图书馆
 - ❌ 不适用于需要客户端软件（如锐捷、Dr.COM）认证的校园网
 
