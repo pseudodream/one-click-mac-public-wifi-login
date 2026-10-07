@@ -1,4 +1,6 @@
-# 弹出WiFi验证 · Mac Captive Portal Launcher
+# 一键弹出 Mac 公共 WiFi 验证页
+
+> 解决连接图书馆、机场、酒店等公共 WiFi 时，登录验证弹窗不出现的问题。
 
 在图书馆、机场、酒店等场所连接需要**网页验证的 WiFi** 时，macOS 有时不会自动弹出登录页，
 很多人只能去「系统设置 → 网络 → 位置」里切换位置来"骗"系统重新检测。
@@ -19,7 +21,7 @@ WiFi 时自动弹出登录窗口。但系统有时会误判"这个网络已经�
 打开「终端」（Terminal），粘贴运行：
 
 ```bash
-zsh <(curl -fsSL https://raw.githubusercontent.com/pseudodream/mac-captive-portal-launcher/main/install.sh)
+zsh <(curl -fsSL https://raw.githubusercontent.com/pseudodream/one-click-mac-public-wifi-login/main/install.sh)
 ```
 
 或者手动下载 `install.sh` 后运行：
@@ -31,7 +33,7 @@ zsh install.sh
 > 国内网络如果访问 raw.githubusercontent.com 缓慢或超时，可改用加速镜像：
 >
 > ```bash
-> zsh <(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/pseudodream/mac-captive-portal-launcher/main/install.sh)
+> zsh <(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/pseudodream/one-click-mac-public-wifi-login/main/install.sh)
 > ```
 >
 > 安装脚本不下载任何文件，全程本地离线操作，可放心运行。
